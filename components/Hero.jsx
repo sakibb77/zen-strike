@@ -26,8 +26,8 @@ const Hero = () => {
   };
 
   return (
-    <section className=" bg-dark ">
-      <div className="frame relative overflow-hidden">
+    <section className=" bg-gray-900 bg-gradient-to-br from-gray-900 from-50%  to-gray-800 to-50%">
+      <div className="frame relative overflow-hidden border-b border-gray-700">
         <div
           className=" slider h-[calc(100vh-5rem)] w-[400vw] flex duration-1000"
           style={{ transform: `translateX(-${100 * currentSlide}vw)` }}

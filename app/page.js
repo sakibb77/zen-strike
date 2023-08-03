@@ -3,6 +3,7 @@ import React from "react";
 import MartialArts from "./martialarts/page";
 import Card from "./instructor/page";
 import Faq from "@/components/Faq";
+import Gallery from "./gallery/page";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Hero />
       <MartialArts />
       <Card />
+      <Gallery />
       <Faq />
     </div>
   );

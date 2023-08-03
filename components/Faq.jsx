@@ -1,6 +1,7 @@
 "use client";
 
 import { martialArtsFAQ } from "@/data";
+import Image from "next/image";
 import { useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 
@@ -21,27 +22,47 @@ const Faq = () => {
         <h1 className="uppercase text-3xl font-semibold text-accent1 mb-10">
           FAQ
         </h1>
-        {martialArtsFAQ.map((faq, index) => (
-          <div className="faq-container w-[45rem] mx-auto" key={faq.id}>
-            <div className="faq-item flex justify-between items-center text-base p-3 shadow-sm shadow-light/50 rounded-md text-light mb-4">
-              <h1>0{faq.id + ". " + faq.question}</h1>
-              <span
-                onClick={() => toggleAccordion(index)}
-                className="text-xl cursor-pointer"
-              >
-                <AiOutlinePlus />
-              </span>
-            </div>
-
-            {activeIndex === index && (
-              <div
-                className={`p-3 shadow-sm shadow-light/10 rounded-md font-light text-light`}
-              >
-                <p className="font-light text-light/70 text-sm">{faq.answer}</p>
-              </div>
-            )}
+        <div className="grid grid-cols-2 items-center justify-center">
+          <div className="w-96 h-full mx-auto">
+            <Image
+              src={
+                "https://res.cloudinary.com/doywcvyxn/image/upload/v1691053273/zen-strike/faqs/14620628_5492300_imbg9n.svg"
+              }
+              alt="faqs"
+              width={800}
+              height={1000}
+            />
           </div>
-        ))}
+          <div>
+            {martialArtsFAQ.map((faq, index) => (
+              <div className="faq-container w-full mx-auto" key={faq.id}>
+                <div
+                  className={`faq-item mt-5 bg-gray-700 flex justify-between items-center text-base p-3 shadow-sm shadow-light/50 rounded-md text-light ${
+                    activeIndex === index && "text-white/80 font-semibold"
+                  }`}
+                >
+                  <h1>0{faq.id + ". " + faq.question}</h1>
+                  <span
+                    onClick={() => toggleAccordion(index)}
+                    className="text-xl cursor-pointer"
+                  >
+                    <AiOutlinePlus />
+                  </span>
+                </div>
+
+                {activeIndex === index && (
+                  <div
+                    className={`p-3 shadow-sm shadow-light/10 rounded-br-md rounded-bl-md mb-4 font-light text-light bg-gray-900`}
+                  >
+                    <p className={`font-light  text-light/70 text-sm`}>
+                      {faq.answer}
+                    </p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
     </div>
   );

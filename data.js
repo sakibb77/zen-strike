@@ -176,9 +176,73 @@ const martialArtsFAQ = [
   },
 ];
 
+const galleryImages = [
+  {
+    id: 1,
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691052731/zen-strike/gallery/pexels-kampus-production-6765016_fpettd.jpg",
+    orientation: "horizontal",
+  },
+  {
+    id: 2,
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691052731/zen-strike/gallery/pexels-rdne-stock-project-8612476_y9rzqz.jpg",
+    orientation: "horizontal",
+  },
+  {
+    id: 3,
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691052731/zen-strike/gallery/pexels-alexa-popovich-9395506_p3ylw3.jpg",
+    orientation: "squre",
+  },
+  {
+    id: 4,
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691052730/zen-strike/gallery/pexels-anna-tarazevich-5895869_xaht8h.jpg",
+    orientation: "vartical",
+  },
+  {
+    id: 5,
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691052724/zen-strike/gallery/pexels-bakr-magrabi-3527074_glyo3v.jpg",
+    orientation: "vartical",
+  },
+  {
+    id: 6,
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691052596/zen-strike/gallery/pexels-alexa-popovich-9313037_nxuqkq.jpg",
+    orientation: "vartical",
+  },
+  {
+    id: 7,
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691052592/zen-strike/gallery/pexels-kampus-production-6765030_ttebqh.jpg",
+    orientation: "vartical",
+  },
+  {
+    id: 8,
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691052572/zen-strike/gallery/pexels-haste-leart-v-690597_jtrmzx.jpg",
+    orientation: "horizontal",
+  },
+  {
+    id: 9,
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691052417/zen-strike/gallery/pexels-rdne-stock-project-7045370_gq5lwe.jpg",
+    orientation: "horizontal",
+  },
+  {
+    id: 10,
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691054794/zen-strike/gallery/schaolin-g7957737c7_1280_rquoef.jpg",
+    orientation: "horizontal",
+  },
+];
+
 export {
   instructors,
   martialArtsSliderContent,
   martialArtsData,
   martialArtsFAQ,
+  galleryImages,
 };
