@@ -26,7 +26,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="  ">
+    <section className=" bg-dark ">
       <div className="frame relative overflow-hidden">
         <div
           className=" slider h-[calc(100vh-5rem)] w-[400vw] flex duration-1000"

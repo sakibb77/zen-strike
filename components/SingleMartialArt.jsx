@@ -28,7 +28,12 @@ const SingleMartialArts = ({ martialArt }) => {
         />
       </div>
       <div className="image flex items-center justify-center">
-        <Image src={martialArt.image} height={400} width={300} />
+        <Image
+          src={martialArt.image}
+          alt={martialArt.description}
+          height={400}
+          width={300}
+        />
       </div>
     </div>
   );

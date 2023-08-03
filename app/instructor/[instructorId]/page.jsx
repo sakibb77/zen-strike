@@ -15,11 +15,15 @@ const InstrantorDelails = ({ params }) => {
         {instructors?.map(
           (instructor) =>
             instructor.id == id && (
-              <div className="h-full w-full grid grid-cols-6 gap-10">
+              <div
+                className="h-full w-full grid grid-cols-6 gap-10"
+                key={instructor.id}
+              >
                 <div className="first-col col-span-2  flex items-center justify-center">
                   <div className="img w-96 rounded-lg overflow-hidden">
                     <Image
                       src={instructor.photo_url}
+                      alt={instructor.details}
                       width={800}
                       height={800}
                     />

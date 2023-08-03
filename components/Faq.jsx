@@ -22,7 +22,7 @@ const Faq = () => {
           FAQ
         </h1>
         {martialArtsFAQ.map((faq, index) => (
-          <div className="faq-container w-[45rem] mx-auto">
+          <div className="faq-container w-[45rem] mx-auto" key={faq.id}>
             <div className="faq-item flex justify-between items-center text-base p-3 shadow-sm shadow-light/50 rounded-md text-light mb-4">
               <h1>0{faq.id + ". " + faq.question}</h1>
               <span

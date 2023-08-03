@@ -1,7 +1,8 @@
 const martialArtsSliderContent = [
   {
     id: 1,
-    image: "bg-slideImg1",
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1690903073/zen-strike/diffarent-martial-arts-image/Karate-Boy-PNG-Image_kdmayt.png",
     title: "Unlock Your Inner Warrior",
     description:
       "Discover the ancient art of self-discipline and empowerment through martial arts training. Join us on a journey of physical and mental transformation.",
@@ -12,7 +13,8 @@ const martialArtsSliderContent = [
   },
   {
     id: 2,
-    image: "bg-slideImg2",
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1690961400/zen-strike/diffarent-martial-arts-image/pngimg.com_-_karate_PNG43_xqsfwp.png",
     title: "Train with the Masters",
     description:
       "Our highly skilled and experienced instructors will guide you through the secrets of various martial arts forms, from Karate and Taekwondo to Jiu-Jitsu and Kung Fu.",
@@ -23,7 +25,8 @@ const martialArtsSliderContent = [
   },
   {
     id: 3,
-    image: "bg-slideImg3",
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1690960776/zen-strike/diffarent-martial-arts-image/pngimg.com_-_taekwondo_PNG25_p5lhgn.png",
     title: "Build Strength and Confidence",
     description:
       "Gain more than just physical strength - our classes are designed to boost your self-confidence, enhance focus, and improve overall well-being.",
@@ -34,7 +37,8 @@ const martialArtsSliderContent = [
   },
   {
     id: 4,
-    image: "bg-slideImg4",
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1690961676/zen-strike/diffarent-martial-arts-image/581-5813381_bjj-brazilian-jiu-jitsu_lgocfh.png",
     title: "A Place for Everyone",
     description:
       "No matter your age or fitness level, we welcome beginners and seasoned practitioners alike. Our classes are tailored to suit everyone's needs.",
