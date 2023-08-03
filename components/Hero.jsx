@@ -1,56 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
-import Button from "./Button";
+import { martialArtsSliderContent } from "@/data";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 import Slide from "./Slide";
-
-const martialArtsSliderContent = [
-  {
-    id: 1,
-    image: "bg-slideImg1",
-    title: "Unlock Your Inner Warrior",
-    description:
-      "Discover the ancient art of self-discipline and empowerment through martial arts training. Join us on a journey of physical and mental transformation.",
-    cta: {
-      buttonText: "Learn More",
-      link: "/learn-more",
-    },
-  },
-  {
-    id: 2,
-    image: "bg-slideImg2",
-    title: "Train with the Masters",
-    description:
-      "Our highly skilled and experienced instructors will guide you through the secrets of various martial arts forms, from Karate and Taekwondo to Jiu-Jitsu and Kung Fu.",
-    cta: {
-      buttonText: "Explore Classes",
-      link: "/explore-classes",
-    },
-  },
-  {
-    id: 3,
-    image: "bg-slideImg3",
-    title: "Build Strength and Confidence",
-    description:
-      "Gain more than just physical strength - our classes are designed to boost your self-confidence, enhance focus, and improve overall well-being.",
-    cta: {
-      buttonText: "Get Started",
-      link: "/get-started",
-    },
-  },
-  {
-    id: 4,
-    image: "bg-slideImg4",
-    title: "A Place for Everyone",
-    description:
-      "No matter your age or fitness level, we welcome beginners and seasoned practitioners alike. Our classes are tailored to suit everyone's needs.",
-    cta: {
-      buttonText: "Join Now",
-      link: "/join-now",
-    },
-  },
-];
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -73,7 +26,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="mt-[5rem]  ">
+    <section className="  ">
       <div className="frame relative overflow-hidden">
         <div
           className=" slider h-[calc(100vh-5rem)] w-[400vw] flex duration-1000"

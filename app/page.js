@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
-import MartialArts from "@/components/MartialArts";
-import Card from "@/components/card";
 import React from "react";
+import MartialArts from "./martialarts/page";
+import Card from "./instructor/page";
 
 const HomePage = () => {
   return (

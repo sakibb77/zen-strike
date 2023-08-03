@@ -1,4 +1,49 @@
-import SingleMartialArts from "./SingleMartialArts";
+const martialArtsSliderContent = [
+  {
+    id: 1,
+    image: "bg-slideImg1",
+    title: "Unlock Your Inner Warrior",
+    description:
+      "Discover the ancient art of self-discipline and empowerment through martial arts training. Join us on a journey of physical and mental transformation.",
+    cta: {
+      buttonText: "Learn More",
+      link: "/learn-more",
+    },
+  },
+  {
+    id: 2,
+    image: "bg-slideImg2",
+    title: "Train with the Masters",
+    description:
+      "Our highly skilled and experienced instructors will guide you through the secrets of various martial arts forms, from Karate and Taekwondo to Jiu-Jitsu and Kung Fu.",
+    cta: {
+      buttonText: "Explore Classes",
+      link: "/explore-classes",
+    },
+  },
+  {
+    id: 3,
+    image: "bg-slideImg3",
+    title: "Build Strength and Confidence",
+    description:
+      "Gain more than just physical strength - our classes are designed to boost your self-confidence, enhance focus, and improve overall well-being.",
+    cta: {
+      buttonText: "Get Started",
+      link: "/get-started",
+    },
+  },
+  {
+    id: 4,
+    image: "bg-slideImg4",
+    title: "A Place for Everyone",
+    description:
+      "No matter your age or fitness level, we welcome beginners and seasoned practitioners alike. Our classes are tailored to suit everyone's needs.",
+    cta: {
+      buttonText: "Join Now",
+      link: "/join-now",
+    },
+  },
+];
 
 const martialArtsData = [
   {
@@ -35,19 +80,63 @@ const martialArtsData = [
   },
 ];
 
-const MartialArts = () => {
-  return (
-    <div className="bg-dark">
-      <div className="wrapper section-padding text-light">
-        <h1 className="uppercase text-3xl font-semibold text-accent1 mb-10">
-          diffarent kinds of martial arts
-        </h1>
-        {martialArtsData.map((martialArt) => (
-          <SingleMartialArts martialArt={martialArt} key={martialArt.id} />
-        ))}
-      </div>
-    </div>
-  );
-};
+const instructors = [
+  {
+    id: 1,
+    name: "Michael Smith",
+    details:
+      "6th-degree black belt in Karate. 15 years of teaching experience. Known for his precise techniques and focus on discipline.",
+    martial_arts: "Karate",
+    contact_info: {
+      email: "michael.smith@example.com",
+      phone: "+1 (555) 123-4567",
+      website: "https://www.example.com/michael_smith",
+    },
+    photo_url:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1690983864/zen-strike/instructors/instructor_xxvn8b.webp",
+  },
+  {
+    id: 2,
+    name: "Sarah Johnson",
+    details:
+      "4th-degree black belt in Jiu-Jitsu. Competed in multiple international tournaments and holds several championship titles.",
+    martial_arts: "Jiu-Jitsu",
+    contact_info: {
+      email: "sarah.johnson@example.com",
+      phone: "+1 (555) 987-6543",
+      website: "https://www.example.com/sarah_johnson",
+    },
+    photo_url:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1690983714/zen-strike/instructors/instructor-1_swx1ma.jpg",
+  },
+  {
+    id: 3,
+    name: "Robert Wang",
+    details:
+      "Taekwondo master. Trained several national champions. His classes focus on speed, agility, and Olympic-style sparring.",
+    martial_arts: "Taekwondo",
+    contact_info: {
+      email: "robert.wang@example.com",
+      phone: "+1 (555) 567-8901",
+      website: "https://www.example.com/robert_wang",
+    },
+    photo_url:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1690983714/zen-strike/instructors/instructor-3_b0x3yn.jpg",
+  },
+  {
+    id: 4,
+    name: "Amanda Davis",
+    details:
+      "3rd-degree black belt in Muay Thai. Specializes in advanced striking techniques and clinch work.",
+    martial_arts: "Muay Thai",
+    contact_info: {
+      email: "amanda.davis@example.com",
+      phone: "+1 (555) 234-5678",
+      website: "https://www.example.com/amanda_davis",
+    },
+    photo_url:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1690983714/zen-strike/instructors/instructor-2_ziyl2d.jpg",
+  },
+];
 
-export default MartialArts;
+export { instructors, martialArtsSliderContent, martialArtsData };
