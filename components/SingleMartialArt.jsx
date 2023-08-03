@@ -22,7 +22,7 @@ const SingleMartialArts = ({ martialArt }) => {
           <p className="font-light ">{martialArt.description}</p>
         </div>
         <Button
-          href={`/martialArts/${martialArt.id}`}
+          href={`/martialarts/${martialArt.id}`}
           bText="read more"
           color="outline"
         />

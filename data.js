@@ -239,10 +239,58 @@ const galleryImages = [
   },
 ];
 
+const martialArtsDetails = [
+  {
+    id: 1,
+    name: "Karate",
+    origin: "Japan",
+    description:
+      "Karate is a Japanese martial art that primarily focuses on striking techniques such as punches, kicks, knee strikes, and elbow strikes. It was developed on the Ryukyu Islands, which are now part of Okinawa, Japan. Karate practitioners, also known as karatekas, train to deliver powerful and precise movements with maximum efficiency. The word 'karate' is a combination of the kanji characters 'kara' (empty) and 'te' (hand), indicating that it is primarily an unarmed combat system. Karate is not only about physical techniques but also emphasizes mental and spiritual aspects, including discipline, respect, and self-control. Training typically involves learning various forms (katas), sparring with partners, and breaking boards to demonstrate striking prowess. Karate has become popular worldwide and is practiced by people of all ages for self-defense, physical fitness, and character development.",
+    famousPractitioners: [
+      "Gichin Funakoshi",
+      "Masutatsu Oyama",
+      "Hirokazu Kanazawa",
+    ],
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691052731/zen-strike/gallery/pexels-kampus-production-6765016_fpettd.jpg",
+  },
+  {
+    id: 2,
+    name: "Kung Fu (Chinese Martial Arts)",
+    origin: "China",
+    description:
+      "Kung Fu, also known as Chinese Martial Arts, is a vast and diverse system of fighting techniques that originated in China over a thousand years ago. The term 'Kung Fu' (Gongfu) refers to any skill achieved through hard work and practice, not limited to martial arts alone. There are hundreds of Kung Fu styles, each with its unique techniques, principles, and training methods. These styles may include both armed and unarmed combat, incorporating strikes, kicks, throws, joint locks, and various animal-inspired movements. Kung Fu training encompasses not only physical conditioning but also meditation, philosophy, and moral values. Some Kung Fu styles are well-known for their acrobatic and flashy movements, while others emphasize internal energy cultivation and sensitivity. Famous practitioners like Bruce Lee, Jet Li, and Jackie Chan have brought global attention to Kung Fu, making it a popular martial art worldwide.",
+    famousPractitioners: ["Bruce Lee", "Jet Li", "Jackie Chan"],
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691052731/zen-strike/gallery/pexels-rdne-stock-project-8612476_y9rzqz.jpg",
+  },
+  {
+    id: 3,
+    name: "Taekwondo",
+    origin: "Korea",
+    description:
+      "Taekwondo is a Korean martial art and Olympic sport that places a strong emphasis on dynamic and powerful kicking techniques. The name 'Taekwondo' is derived from the Korean words 'tae' (to strike with the foot), 'kwon' (to strike with the fist), and 'do' (the way or path). Developed in the mid-20th century, Taekwondo combines traditional Korean martial arts, influences from Japanese karate, and other indigenous fighting styles. Practitioners, known as taekwondoin, learn a wide array of techniques for self-defense, sparring, board breaking, and patterns (forms). Besides its physical aspects, Taekwondo places importance on mental discipline, respect, and perseverance. Taekwondo's inclusion in the Olympic Games has significantly boosted its global popularity, attracting practitioners of all ages from different cultural backgrounds.",
+    famousPractitioners: ["Choi Hong Hi", "Hwang Kee", "Woo-Jin Jung"],
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691052572/zen-strike/gallery/pexels-haste-leart-v-690597_jtrmzx.jpg",
+  },
+  {
+    id: 4,
+    name: "Brazilian Jiu-Jitsu (BJJ)",
+    origin: "Brazil",
+    description:
+      "Brazilian Jiu-Jitsu (BJJ) is a grappling-based martial art and combat sport that evolved from Japanese Jujutsu and Judo. It was developed in Brazil in the early 20th century, primarily by the Gracie family. BJJ focuses on ground fighting and submissions, aiming to enable a smaller and weaker person to defend against and defeat a larger opponent using leverage and technique. Practitioners, known as grapplers, learn a variety of joint locks and chokeholds to control and submit their opponents effectively. BJJ training involves sparring (rolling) with resisting partners, developing positional awareness, and enhancing ground-based combat skills. This martial art has gained widespread recognition and is often practiced for self-defense, sport, and mixed martial arts (MMA) competitions. Brazilian Jiu-Jitsu is known for its effectiveness, particularly in close-quarters combat and situations where the fight goes to the ground.",
+    famousPractitioners: ["Helio Gracie", "Carlos Gracie", "Royce Gracie"],
+    image:
+      "https://res.cloudinary.com/doywcvyxn/image/upload/v1691054794/zen-strike/gallery/schaolin-g7957737c7_1280_rquoef.jpg",
+  },
+];
+
 export {
   instructors,
   martialArtsSliderContent,
   martialArtsData,
   martialArtsFAQ,
   galleryImages,
+  martialArtsDetails,
 };
