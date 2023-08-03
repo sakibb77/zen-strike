@@ -26,7 +26,7 @@ const Card = () => {
               <div className="overlay overflow-hidden h-0 -z-10 group-hover:h-full w-full absolute top-0 left-0 group-hover:z-10 bg-dark/50 flex items-center justify-center duration-300">
                 <Button
                   href={`/instructor/${instructor.id}`}
-                  bText="vaiw details"
+                  bText="view details"
                 />
               </div>
             </div>

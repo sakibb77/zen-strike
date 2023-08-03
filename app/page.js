@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import React from "react";
 import MartialArts from "./martialarts/page";
 import Card from "./instructor/page";
+import Faq from "@/components/Faq";
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <Hero />
       <MartialArts />
       <Card />
+      <Faq />
     </div>
   );
 };

@@ -139,4 +139,42 @@ const instructors = [
   },
 ];
 
-export { instructors, martialArtsSliderContent, martialArtsData };
+const martialArtsFAQ = [
+  {
+    id: 1,
+    question: "What is the best age to start learning martial arts?",
+    answer:
+      "There is no definitive answer to this question as it depends on the individual. Generally, kids can start as young as 4 or 5 years old, while adults can start at any age. It's essential to find a suitable style and instructor for the person's age and skill level.",
+  },
+  {
+    id: 2,
+    question: "Which martial art is best for self-defense?",
+    answer:
+      "Many martial arts can be effective for self-defense. Some popular choices include Krav Maga, Brazilian Jiu-Jitsu, Muay Thai, and Taekwondo. However, the effectiveness of self-defense depends on the practitioner's training, technique, and ability to apply the skills in real-life situations.",
+  },
+  {
+    id: 3,
+    question: "Is martial arts training suitable for women?",
+    answer:
+      "Yes, martial arts training is suitable for women and can be beneficial in various aspects. It helps improve self-confidence, physical fitness, and self-defense skills. Women can participate and excel in various martial arts styles, just like men.",
+  },
+  {
+    id: 4,
+    question: "How often should I attend martial arts classes?",
+    answer:
+      "The frequency of attending martial arts classes depends on your personal goals, schedule, and dedication. For beginners, starting with 2-3 classes per week is usually a good pace to allow time for rest and recovery. As you progress, you may increase the frequency if desired.",
+  },
+  {
+    id: 5,
+    question: "What equipment do I need for martial arts training?",
+    answer:
+      "The required equipment can vary depending on the martial art style. In general, comfortable workout clothing, a mouthguard, and hand wraps are essential for most martial arts. For specific styles like boxing or Muay Thai, you may also need gloves and shin guards.",
+  },
+];
+
+export {
+  instructors,
+  martialArtsSliderContent,
+  martialArtsData,
+  martialArtsFAQ,
+};

@@ -31,11 +31,6 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            <li>
-              <Link href="/Contact" className="link-item">
-                Contact
-              </Link>
-            </li>
           </ul>
         </nav>
         {/* NAV RIGHT  */}
