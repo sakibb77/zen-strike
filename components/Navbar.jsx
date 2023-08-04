@@ -17,18 +17,35 @@ const Navbar = () => {
         <nav>
           <ul className="flex gap-3 items-center">
             <li>
-              <Link href="/" className="link-item">
+              <Link
+                href="/"
+                className="link-item tracking-wide uppercase hover:text-accent1 duration-300"
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/martialarts" className="link-item">
+              <Link
+                href="/martialarts"
+                className="link-item tracking-wide uppercase hover:text-accent1 duration-300"
+              >
                 martialarts
               </Link>
             </li>
             <li>
-              <Link href="/about" className="link-item">
-                About
+              <Link
+                href="/instructor"
+                className="link-item tracking-wide uppercase hover:text-accent1 duration-300"
+              >
+                instructor
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/gallery"
+                className="link-item tracking-wide uppercase hover:text-accent1 duration-300"
+              >
+                gallery
               </Link>
             </li>
           </ul>

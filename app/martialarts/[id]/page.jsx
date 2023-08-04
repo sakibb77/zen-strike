@@ -37,7 +37,7 @@ const page = ({ params }) => {
                       ))}
                     </div>
                   </div>
-                  <p className="text-light">{art.description}</p>
+                  <p className="text-light tracking-wide">{art.description}</p>
                 </div>
               </div>
             )

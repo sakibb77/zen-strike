@@ -13,7 +13,9 @@ const Slide = ({ slide }) => {
           <h2 className="text-5xl font-semibold uppercase text-accent1 ">
             {slide.title}
           </h2>
-          <p className=" text-light text-lg">{slide.description}</p>
+          <p className=" text-light tracking-wide text-lg">
+            {slide.description}
+          </p>
           <Button href={slide.cta.link} bText={`${slide.cta.buttonText}→`} />
         </div>
         <div className="h-full relative w-1/2 section-padding flex items-center justify-center">

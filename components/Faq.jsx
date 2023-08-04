@@ -17,7 +17,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="bg-dark">
+    <div className="bg-dark border-y border-gray-700">
       <section className="wrapper section-padding">
         <h1 className="uppercase text-3xl font-semibold text-accent1 mb-10">
           FAQ
@@ -37,7 +37,7 @@ const Faq = () => {
             {martialArtsFAQ.map((faq, index) => (
               <div className="faq-container w-full mx-auto" key={faq.id}>
                 <div
-                  className={`faq-item mt-5 bg-gray-700 flex justify-between items-center text-base p-3 shadow-sm shadow-light/50 rounded-md text-light ${
+                  className={`faq-item mt-5 bg-gray-900 flex justify-between items-center text-base p-3 shadow-sm shadow-light/30 rounded-md text-light ${
                     activeIndex === index && "text-white/80 font-semibold"
                   }`}
                 >

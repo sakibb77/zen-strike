@@ -19,21 +19,34 @@ const SingleMartialArts = ({ martialArt }) => {
           <h2 className="uppercase tracking-wider text-lg font-semibold text-accent2">
             {martialArt.name}
           </h2>
-          <p className="font-light ">{martialArt.description}</p>
+          <p className="font-light tracking-wide">{martialArt.description}</p>
         </div>
         <Button
           href={`/martialarts/${martialArt.id}`}
           bText="read more"
-          color="outline"
+          color="green"
         />
       </div>
-      <div className="image flex items-center justify-center">
-        <Image
-          src={martialArt.image}
-          alt={martialArt.description}
-          height={400}
-          width={300}
-        />
+      <div className="image relative flex items-center justify-center">
+        <div className="z-[2]">
+          <Image
+            src={martialArt.image}
+            alt={martialArt.description}
+            height={400}
+            width={300}
+          />
+        </div>
+
+        <div className="absolute  w-[40rem] -z-[0]">
+          <Image
+            src={
+              "https://res.cloudinary.com/doywcvyxn/image/upload/v1691059221/zen-strike/diffarent-martial-arts-image/blob_1_mwjg8v.svg"
+            }
+            height={1200}
+            width={1200}
+            alt={"svg"}
+          />
+        </div>
       </div>
     </div>
   );

@@ -286,6 +286,27 @@ const martialArtsDetails = [
   },
 ];
 
+const footerContent = {
+  id: "zen_strike_footer",
+  logo: "path/to/zen_strike_logo.png",
+  links: [
+    { text: "Home", url: "/home" },
+    { text: "martial arts", url: "/martialarts" },
+    { text: "instructor", url: "/instructor" },
+    { text: "gallery", url: "/gallery" },
+  ],
+  ligal: ["Terms of Service", "Privacy Policy", "Disclaimer"],
+  address: "123 Zen Way, Martial City, Zenland",
+  phone: "+1 (123) 456-7890",
+  email: "info@zenstrike.com",
+  socialMedia: {
+    facebook: "https://www.facebook.com/zenstrike",
+    instagram: "https://www.instagram.com/zenstrike",
+    twitter: "https://www.twitter.com/zenstrike",
+  },
+  copyright: "© new Date().getFullYear() Zen Strike. All Rights Reserved.",
+};
+
 export {
   instructors,
   martialArtsSliderContent,
@@ -293,4 +314,5 @@ export {
   martialArtsFAQ,
   galleryImages,
   martialArtsDetails,
+  footerContent,
 };

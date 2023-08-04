@@ -7,7 +7,7 @@ const buttonVariants = cva("px-4 py-3 font-semibold rounded-md duration-300", {
   variants: {
     color: {
       green: "bg-accent1 text-dark hover:bg-accent1/90",
-      red: "bg-accent2 text-light hover:bg-accent2/90",
+      red: "bg-accent2 text-dark hover:bg-accent2/90",
       outline: "bg-transparent text-light hover:bg-dark/10 border border-light",
     },
   },
