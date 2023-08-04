@@ -32,8 +32,10 @@ const page = ({ params }) => {
                       <h2 className="text-accent1 text-lg">
                         famous Practitioners
                       </h2>
-                      {art.famousPractitioners.map((p) => (
-                        <p className="text-white/80">0{art.id + ". " + p}</p>
+                      {art.famousPractitioners.map((p, index) => (
+                        <p className="text-white/80" key={index}>
+                          0{art.id + ". " + p}
+                        </p>
                       ))}
                     </div>
                   </div>
