@@ -21,8 +21,8 @@ const Footer = () => {
         </div>
         <div>
           <h2 className="text-lg font-medium text-white/80 uppercase">links</h2>
-          {footerContent.links.map((link) => (
-            <div className="flex flex-col gap-3">
+          {footerContent.links.map((link, index) => (
+            <div className="flex flex-col gap-3" key={index}>
               <Link className="text-light" href={link.url}>
                 {link.text}
               </Link>
@@ -39,8 +39,8 @@ const Footer = () => {
         </div>
         <div>
           <h2 className="text-lg font-medium text-white/80 uppercase">ligal</h2>
-          {footerContent.ligal.map((l) => (
-            <div className="flex flex-col gap-3">
+          {footerContent.ligal.map((l, index) => (
+            <div className="flex flex-col gap-3" key={index}>
               <Link className="text-light" href={"/"}>
                 {l}
               </Link>

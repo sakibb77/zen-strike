@@ -13,7 +13,7 @@ const page = ({ params }) => {
         {martialArtsDetails.map(
           (art) =>
             art.id == id && (
-              <div className="">
+              <div className="" key={art.id}>
                 <div className="p-5 ">
                   <div className="text-light p-4   flex justify-around gap-5">
                     <div className=" h-full rounded-lg overflow-hidden ">

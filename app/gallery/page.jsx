@@ -14,8 +14,6 @@ const Gallery = () => {
             <div
               key={image.id}
               className={`${image.orientation} overflow-hidden`}
-              h-full
-              w-full
             >
               <Image
                 src={image.image}

@@ -24,6 +24,7 @@ const Card = () => {
             >
               <Image
                 src={instructor.photo_url}
+                alt="image"
                 width={800}
                 height={800}
                 style={{ width: "100%" }}
